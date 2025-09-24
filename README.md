@@ -3,9 +3,6 @@ Project 1 CS 454
 
 A simple Node.js web service that converts pounds (lbs) to kilograms (kg). Accepts a `lbs` query parameter and returns JSON with the conversion result.
 
-
-# lbs-to-kg-converter
-Project 1 CS 454
 # Install dependencies
 npm install
 
