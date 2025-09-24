@@ -19,3 +19,13 @@ curl http://3.144.150.134/convert?lbs=150
 - `curl http://3.144.150.134/convert?lbs=-5` → `422 error`
 - `curl http://3.144.150.134/convert` → `400 error`
 - `curl http://3.144.150.134/convert?lbs=NaN` → `400 error`
+- 
+## Screenshots
+### Successful curl request
+![0 lbs](Screenshots/zeroPounds.png)
+![Small number](Screenshots/smallNumber.png)
+
+### Error cases
+![422 Error](Screenshots/fourTwoTwoError.png)
+![400 Error](Screenshots/fourHundredError.png)
+![400 Error alternative](Screenshots/fourHundredErrorTwo.png)
