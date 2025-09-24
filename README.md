@@ -29,3 +29,16 @@ curl http://3.144.150.134/convert?lbs=150
 ![422 Error](Screenshots/fourTwoTwoError.png)
 ![400 Error](Screenshots/fourHundredError.png)
 ![400 Error alternative](Screenshots/fourHundredErrorTwo.png)
+
+
+## Public Endpoint & Security Group
+
+**Public Endpoint:** `http://3.144.150.134` (your Node.js service runs on port 80/8080)
+
+**Security Group Summary:**
+
+| Protocol | Port | Source    | Purpose                       |
+|----------|------|-----------|-------------------------------|
+| TCP      | 22   | 0.0.0.0/0 | SSH access (login via PuTTY) |
+| TCP      | 80   | 0.0.0.0/0 | HTTP requests to Node service |
+| TCP      | 8080 | 0.0.0.0/0 | Alternative Node port (if used) |
