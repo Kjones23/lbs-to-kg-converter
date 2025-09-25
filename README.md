@@ -22,13 +22,14 @@ curl http://3.144.150.134/convert?lbs=150
 - 
 ## Screenshots
 ### Successful curl request
-![0 lbs](Screenshots/zeroPounds.png)
-![Small number](Screenshots/smallNumber.png)
+![0 lbs](Screenshots/TestCases/zeroPounds.png)
+![Small number](Screenshots/TestCases/smallNumber.png)
 
 ### Error cases
-![422 Error](Screenshots/fourTwoTwoError.png)
-![400 Error](Screenshots/fourHundredError.png)
-![400 Error alternative](Screenshots/fourHundredErrorTwo.png)
+![422 Error](Screenshots/TestCases/fourTwoTwoError.png)
+![400 Error](Screenshots/TestCases/fourHundredError.png)
+![400 Error alternative](Screenshots/TestCases/fourHundredErrorTwo.png)
+
 
 
 ## Public Endpoint & Security Group
